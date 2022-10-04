@@ -1,0 +1,308 @@
+
+
+
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+    /* main */
+    .band-heading-text{
+        padding: 10px 20px;
+    }
+    .tour__ticket-list{
+        margin: 10px 76px 0  20px ; 
+    }
+    .tour__introduce{
+        margin: 0 12px;
+    }
+    .contact{
+        margin: 0 16px;
+    }
+    .form__control{
+        width: 182px;
+    }
+    .contact__information-extra{
+        padding-left: 130px;
+    }
+    .contact__information-main{
+        padding: 0 0 0;
+    }
+    .form__control-full{
+        width: 374px;
+    }
+
+
+
+
+    /* menu of tablet */
+    .menu-tablet{
+        display: block;
+        padding-top: 7px;
+        margin-right: 630px;
+    }
+    .header__list{
+        display: none;
+    }
+    .menu__input:checked ~ .nav__overlay{
+        display: block;
+    }
+    .menu__input:checked ~ .menu__tablet-all{
+        transform: translateX(0%);
+    }
+    .nav__overlay{
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+        animation: fadeIn linear 0.3s;
+    }
+    .menu__tablet-all{
+        display: block;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        width: 320px;
+        max-width: 100%;
+        background-color: #fff;
+        padding: 16px 0 0 30px;
+        transform: translateX(-100%);
+        opacity: 1;
+        transition: transform linear 0.2s, opacity linear 0.2s;
+    }
+    .menu__tablet-close{
+        font-size: 18px;
+    }
+    .user__tablet{
+        text-align: center;
+        padding: 30px 30px 30px 0; 
+    }
+    .user__tablet-icons{
+        font-size: 100px;
+        cursor: pointer;
+    }
+    .user__tablet-icons:hover{
+        color: tomato;
+    }
+
+
+    .menu__tablet-list{
+        list-style: none;
+        padding-top: 20px;
+    }
+    .menu__tablet-link{
+        text-decoration: none;
+        color: #000;
+    }
+    .menu__tablet-items{
+        width: 100%;
+        height: 60px;
+        line-height: 57px;
+        padding-left: 16px;
+        font-size: 20px;
+    }
+    .menu__tablet-items:hover{
+        background-color: #ccc;
+        border-radius: 3px;
+        color: tomato;
+    }
+    .menu__tablet-items:hover a{
+        color: tomato;
+    }
+    .menu__tablet-icons{
+        padding-right: 6px;
+        font-weight: 500;
+    }
+
+    @keyframes fadeIn {
+
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 46.1875em){
+
+
+    .header__list{
+        display: none;
+    }
+    .slider{
+        margin-top: 46px;
+    }
+    .text-headding{
+        display: none;
+    }
+    .text-decription{
+        display: none;
+    }
+    .content{
+        padding: 8px 0 0;
+    }
+    .band{
+        padding-bottom: 20px;
+    }
+    .band__footer-list{
+        flex-direction: column;
+    }
+    .band-heading-text{
+        padding: 0 18px;
+    }
+    .band__footer-items{
+        padding-top: 20px;
+        width: 100%;
+    }
+    .band__footer-text{
+        padding: 12px 0;
+    }
+    .band__footer-img{
+        width: 193px;
+        height: 197px;
+    }
+    .tour__cover-all{
+        width: 100%;
+    }
+    .tuor__heading-title{
+        font-family: "Segoe UI",Arial,sans-serif;
+    }
+    .tour__ticket{
+        width: 320px;
+        margin: 0 20px;
+    }
+    .tour__introduce{
+        flex-direction: column;
+        /* padding: 30px 20px; */
+    }
+    .tour__introduce-ticket-sell{
+        padding: 0 26px 12px;
+    }
+    .contact{
+        padding: 0 20px;
+        height: 70vh;
+    }
+    .contact__information{
+        flex-direction: column;
+    }
+    .contact__information-main{
+        width: 100%;    
+        padding-bottom: 20px;
+    }
+    .contact__information-extra{
+        padding-left: 0;
+    }
+    .form__control{
+        width: 100%;
+    }
+    .form__control-full{
+        width: 100%;
+    }
+    
+    .footer__heading-text{
+        font-size: 28px ;
+    }
+    .footer__heading-decription{
+        font-size: 14px;
+    }
+    .footer__heading-decription span{
+        font-size: 16px;
+    }
+    .footer__icons i{
+        font-size: 40px;
+    }
+
+
+
+    /* menu mobile */
+    .menu-tablet{
+        display: block;
+        margin-right: 465px;
+        padding: 7px 0 ;
+    }
+    .menu__tablet-all{
+        padding-top: 12px;
+    }
+    .menu__tablet-close {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .user__tablet{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .user__tablet-icons{
+        color: #fff;
+        font-size: 80px;
+    }
+    .user__tablet-icons:hover{
+        color: tomato;
+    }
+    .nav__overlay{
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+        animation: fadeIn linear 0.3s;
+    }
+    .menu__tablet-all{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #000;
+        transform: translateY(-100%);
+        transition: transform linear 0.2s;
+    }
+    .menu__input:checked ~ .nav__overlay{
+        display: block;
+    }
+    .menu__input:checked ~ .menu__tablet-all{
+        transform: translateX(0%);
+    }
+    .menu__tablet-list{
+        list-style: none;
+    }
+    .menu__tablet-items:hover{
+        color: #000;
+        background-color: #ccc;
+    }
+    .menu__tablet-link:hover{
+        color: #000;
+    }
+    .menu__tablet-items{
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+
+    }
+    .menu__tablet-icons{
+        padding-left: 30px;
+        padding-right: 12px;
+    }
+    .menu__tablet-link{
+        position: absolute;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+    }
+
+
+
+
+
+}

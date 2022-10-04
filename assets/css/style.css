@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.col_half{
+    width: 50%;
+}
+
+.col_full{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Star headerrrrr */
+.header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.header__list{
+    list-style: none;
+    display: inline-block;
+}
+.header__items{
+    display: inline-block;
+    position: relative;
+}
+.header__items:hover .header__link{
+    background-color: #ccc;
+    color: #000;
+}
+.header__items .header__link{
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.header__menu:hover .more__menu-list{
+    display: block;
+
+}
+
+.more__menu-list{
+    position: absolute;
+    display: none;
+    top: 100%;
+    list-style: none;
+    line-height: 46px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #ccc;
+    z-index: 1;
+}
+
+.more__menu-items{
+    padding: 0 30px 0 12px;
+    width: 100%;
+}
+.more__menu-items:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.more__menu-link{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+.header .header__found{
+    float: right;
+    padding: 0 24px;
+    cursor: pointer;
+}
+.header .header__found-icons{
+    color: #fff;
+    line-height: 46px;
+    font-size: 20px;
+    
+}
+.header .header__found:hover{
+    background-color: tomato;
+}
+/* End headerrrrr */
+
+
+/* Star Slider */
+.slider{
+    /* tỉ lệ phóng to thu nhỏ phải luôn bằng kích thước của ảnh  */
+    padding-top: 50%;
+    /* back ground: img, position, size, repeat */
+    background-image: url('/HTML_WEB/w3c_band/assets/img/slide1.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.text-content{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-headding{
+    font-size: 24px;
+}
+.text-decription{
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+
+/* Contentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+
+/* Bandddddddddddddddddddddddddddddddddddddddddddđ of content */
+.band{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.band-heading{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+.band-heading-opacity{
+    font-size: 15px;
+    font-style: italic;
+    color: #9b9b9b;
+    padding-bottom: 14px;
+}
+.band-heading-text{
+    /* display: flex; */
+    text-align: justify;
+    font-weight: 400;
+    word-spacing: -0.1px;
+}
+
+/* member of content */
+.band__footer{
+    padding: 70px 0;
+}
+.band__footer-list{
+    display: flex;
+    list-style: none;
+}
+.band__footer-items{
+   width: 33.33333%;
+}
+.band__footer-text{
+    font-weight: 550;
+    color: #4b4545;
+    padding-bottom: 16px;
+}
+.band__footer-img{
+    width: 150px;
+    height: 147px;
+    border-radius: 3px;
+}
+/*  End Bandddddddddddddddddddddddddddddddddddddddddddđ of content */
+
+/* Tuorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr of content */
+.tour{
+    background-color: #000;
+}
+.tour__cover-all{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 111px;
+}
+.tour__heading{
+    color: #fff;
+    text-align: center;
+}
+.tuor__heading-title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 70px  0 10px 0;
+}
+.tuor__heading-decriptions{
+    color: #929292;
+    font-style: italic;
+    padding: 10px 0 30px;
+}
+
+
+.tour__ticket{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.tour__ticket-list{
+    background-color: #fff;
+    color: #757575;
+    list-style: none;
+}
+.tour__ticket-items{
+    position: relative;
+    height: 40px;
+    /* line-height: 40px; */
+    border: 1px solid #ccc;
+    padding: 11px 16px;
+}
+.tour__ticket-sold--old{
+    margin-left: 12px;
+    padding: 4px 8px;
+    height: 20px;
+    width: 68px;
+    color: #fff;
+    background-color: #f44336;
+}
+.tour__ticket-remaining{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+
+.tour__introduce{
+    /* text-align: center; */
+    padding-top: 32px;
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.tour__introduce-ticket-sell{
+    float: left;
+    padding: 0 8px;
+    width: 33,3333%;
+}
+.tour__introduce-ticket-all{
+    top: 0;
+    /* display: block; */
+    padding: 10px 16px;
+    background-color: #fff;
+}
+
+.tour__introduce-ticket-img{
+    display: block;
+    width: 100%;
+}
+.tour__introduce-ticket-img:hover{
+    opacity: 0.6;
+}
+.tour__introduce-ticket-heading{
+    font-size: 15px;
+    font-weight: 700;
+    cursor: default;
+}
+.tour__introduce-ticket-day{
+    padding: 16px 0;
+    font-size: 15px;
+    color: #858585 ;
+    cursor: default;
+}
+.tour__introduce-ticket-decription{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    cursor: default;
+}
+.tour__introduce-ticket-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 105px;
+    height: 37px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.tour__introduce-ticket-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+/*  End   Tuorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr of content */
+
+
+
+
+/* Contactttttttttttttttttttttttttttttttttttttttttttttttttttt of content  */
+.contact{
+    padding: 80px 0;
+}
+.contact__cover-all{
+    max-width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact__heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    padding:  15px 0;
+}
+.contact__decription{
+    text-align: center;
+    color: #6e6e6e;
+    font-style: italic;
+}
+.contact__information{
+    display: flex;
+    margin-top: 50px;
+    height: 150px;
+}
+.contact__information-main{
+    cursor: pointer;
+}
+.contact__information-main--list{
+    width: 200px;
+}
+.contact__information-main--items{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.contact__information-main--icons{
+    padding-right: 18px;
+    font-size: 18px;
+}
+.contact__information-main--text{
+    font-size: 18px;
+}
+
+.contact__information-extra{
+    padding-left: 205px;
+}
+.form__control{
+    margin: 0 5px  8px 0;
+    padding: 0 13px;
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+}
+.form__control-full{
+    width: 390px;
+    height: 40px;
+    padding: 0 13px;
+    font-size: 16px;
+}
+.form__btn{
+    float: right;
+    margin: 15px 5px 0 0;
+    width: 72px;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.form__btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+
+.map{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+.footer{
+    text-align: center;
+    background-color:lightseagreen;
+}
+.footer__heading{
+    padding: 50px 0  30px 0 ;
+}
+.footer__heading-text{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.footer__heading-decription{
+    color: #ddebeb;
+    font-style: italic;
+}
+.footer__heading-decription span{
+    color: #fff;
+}
+
+.footer__icons{
+    padding-bottom: 30px;
+}
+.footer__icons i{
+    font-size: 50px;
+    padding: 12px 12px 30px 0;
+}
+.footer__icons i:hover{
+    color:sandybrown;
+}
+.footer__end{
+    display: block;
+}
+
+
+
+.menu-tablet{
+    font-size: 26px;
+    color: #fff;
+    float: right;
+    display: none;
+}
+.menu__tablet-all{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
